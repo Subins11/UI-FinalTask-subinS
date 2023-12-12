@@ -1,0 +1,19 @@
+.be-header__button {
+    width: 160px;
+    height: 30px;
+    background-color: #10385B;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 20px;
+    border: none;
+  
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 8px;
+    }
+  }

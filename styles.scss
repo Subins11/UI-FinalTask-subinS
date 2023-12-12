@@ -1,0 +1,22 @@
+//Base
+
+@import "./assets/scss/base/mixin";
+@import "./assets/scss/base/color";
+@import "./assets/scss/base/basics";
+
+//Atom
+@import "./assets/scss/atom/button";
+
+//Molecule
+@import "./assets/scss/molecule/beinex_approach";
+@import "./assets/scss/molecule/why_beinex";
+@import "./assets/scss/molecule/global_presence";
+
+//Organism
+
+@import "./assets/scss/organism/header";
+@import "./assets/scss/organism/navbar";
+@import "./assets/scss/organism/cover_section";
+@import "./assets/scss/organism/advanced";
+@import "./assets/scss/organism/delivery_model";
+@import "./assets/scss/organism/form_section";

@@ -1,0 +1,150 @@
+.be-header__section {
+  height: auto;
+  margin-top: 5px;
+  color: #10385b;
+
+  .be-header__social__media {
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    padding-left: 35px;
+
+    a {
+      width: 35px;
+      text-decoration: none;
+      color: #10385b;
+    }
+    select {
+      border: none;
+    }
+  }
+  .be-header__trial {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: flex-end;
+    padding-right: 40px;
+
+    a {
+      margin-right: 5px;
+      text-decoration: none;
+      color: #10385b;
+      font-size: 14px;
+    }
+    a:hover {
+      color: #007bff;
+      text-decoration: underline;
+    }
+  }
+}
+
+@include mobile {
+  .be-header__section {
+    height: auto;
+    margin: 5px;
+
+    .be-header__social__media {
+      padding: 5px;
+      justify-content: center;
+      float: none;
+      a {
+        width: 30px;
+        font-size: 12px;
+        padding-top: 5px;
+      }
+      img {
+        width: 12px;
+        height: 12px;
+      }
+    }
+    .be-header__trial {
+      display: flex;
+      flex-direction: row;
+      float: none;
+      justify-content: flex-end;
+      padding: 5px;
+      a {
+        margin-right: 0px;
+        width: 150px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+    .be-header__button {
+      width: 120px;
+      height: 25px;
+      font-size: 10px;
+      padding-left: 15px;
+      border: none;
+
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .be-header__section {
+    height: auto;
+    margin: 5px;
+
+    .be-header__social__media {
+      padding: 10px;
+      justify-content: center;
+      float: none;
+      a {
+        width: 50px;
+        font-size: 18px;
+      }
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .be-header__trial {
+      display: flex;
+      flex-direction: row;
+      float: none;
+      justify-content: center;
+
+      a {
+        margin-right: 5px;
+        width: 150px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+    .be-header__button {
+      width: 120px;
+      height: 30px;
+      font-size: 10px;
+      padding-left: 15px;
+
+      img {
+        display: none;
+      }
+    }
+  }
+}
+@include laptops {
+  .be-header__social__media {
+    padding-left: 20px;
+
+    a {
+      width: 25px;
+    }
+  }
+  .be-header__trial {
+    display: flex;
+    flex-direction: row;
+    float: none;
+    justify-content: space-around;
+    padding-right: 10px;
+
+    a {
+      margin-right: 5px;
+      font-size: 12px;
+    }
+  }
+}
